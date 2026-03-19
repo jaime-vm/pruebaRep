@@ -16,10 +16,10 @@ import java.text.SimpleDateFormat;
  * month, and year values cannot be changed.
  */
 // Constructor modified by the owner
-public Date(int dia, int mes, int año) {
-  this.day = dia;
-  this.month = mes;
-  this.year = año;
+public Date(int day, int month, int year) {
+  this.day = day;
+  this.month = month;
+  this.year = year;
 }
 public void methodAddedByOwner(){
   System.out.println("Method added by the owner");
